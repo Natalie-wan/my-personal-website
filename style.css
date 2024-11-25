@@ -7,9 +7,9 @@
     font-family: Merriweather;
 }
 
-/*body{
+body{
     color: #000000;
-    background-color: #5a7854;
+    background-color: #ffffff;
 }*/
 
 header{
@@ -67,13 +67,17 @@ header{
     z-index: -1;
 }
 
+p{
+    color: #000000;
+}
 
-/*.main-content{
+
+.main-content{
     padding: 20px;
     margin: 20px auto;
     box-shadow: none;
     overflow: hidden;
-    max-width: 600px;
+    max-width: 50%;
 }
 
 h2{
@@ -91,7 +95,7 @@ p{
     position: relative;
 }
 
-/*section{
+section{
     display: flex;
     align-items: center;
     height: 100vh;
@@ -99,13 +103,10 @@ p{
     max-width: 600px;
     font-size: 16px;
     margin: 20px 0 40px;
-}*/
+}
 
-/*#home, #about, #skills{
+#home, #about, #skills{
     display: flex;
     align-items: flex-start;
    
-}*/
-
-
-
+}

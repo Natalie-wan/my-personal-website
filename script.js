@@ -1,3 +1,11 @@
-/*const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);*/
+function showSelection(sectionId){
+    //Hide all sections
+    const sections= document.querySelectorAll('.main-content section');
+    sections.forEach(section => {
+        section.classList.add('hidden');
+    });
+
+    //show the selected section
+    const selectedSection = document.getElementById(sectionId);
+    selectedSection.classList.remove('hidden');
+}
