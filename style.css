@@ -7,10 +7,10 @@
     font-family: Merriweather;
 }
 
-body{
+/*body{
     color: #000000;
     background-color: #5a7854;
-}
+}*/
 
 header{
     display: flex;
@@ -48,6 +48,25 @@ header{
 .navbar a:hover{
     color: #f66f1d;
 }
+
+.half-background{
+    display: flex;
+    height: 100vh;
+}
+
+.half-background::before{
+    content: "";
+    background-image: url(file:///C:/Users/Administrator/Downloads/1732336353.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 
 /*.main-content{
     padding: 20px;
